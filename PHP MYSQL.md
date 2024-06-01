@@ -20,7 +20,7 @@ if ($koneksi) {
 }
 ```
 ## Hasil
-![[h.koneksi.jpeg]]
+![h.koneksi.jpeg](Asetphp/h.koneksi.jpeg)
 
 ## Analisis
 Program PHP di atas adalah skrip sederhana untuk menghubungkan aplikasi PHP ke database MySQL. Berikut adalah analisis detail dari kode tersebut:
@@ -161,7 +161,7 @@ foreach ($select as $key => $data) {
 ```
 
 ## Hasil
-![[h.knks.png]]
+![h.knks.png](Asetphp/h.knks.png)
 ## Analisis
 Program PHP di atas adalah skrip untuk menghubungkan ke database MySQL, menjalankan query, dan menampilkan hasil dari tabel `daftar_mobil`. Berikut adalah analisis rinci dari setiap bagian kode tersebut:
 
@@ -290,7 +290,7 @@ mysqli_close($koneksi);
 ?>
 ```
 ## Hasil
-![[h.ubahdata.png]]
+![h.ubahdata.png](Asetphp/h.ubahdata.png)
 ## Analisis
 ```php mysql
 $koneksi = mysqli_connect('localhost', 'root', '', 'rental_raihan');
@@ -386,7 +386,7 @@ if ($update) { echo "Data dengan nomor plat $no_plat_lama berhasil diubah menjad
 ```
 
 ## **Hasil:**
-![[ubahda.png]]
+![ubahda.png](Asetphp/ubahda.png)
 ## **Analisis:**
 1. Koneksi ke Database
 ```php
@@ -467,7 +467,7 @@ foreach ($select_after_delete as $key => $data) {
 ```
 
 ## **Hasil:**
-![[hps.png]]
+![hps.png](Asetphp/hps.png)
 ## **Analisis:**
  1. Koneksi ke Database
 ```mysql
@@ -612,9 +612,9 @@ if ($_SESSION['status'] != 'login') {
 ```
 
 ## **Hasil:**
-![[hasil.png]]
+![hasil.png](Asetphp/hasil.png)
 
-![[hasill.png]]
+![hasill.png](Asetphp/hasill.png)
 
 ## **Analisis:**
 1. Pada bagian PHP:
@@ -763,9 +763,9 @@ File `session.php` adalah program PHP yang melakukan proses login menggunakan 
 ```
 
 ### **Hasil:**
-![[ab.png]]
+![ab.png](Asetphp/ab.png)
 
-![[ac.png]]
+![ac.png](Asetphp/ac.png)
 
 ### **Analisis:**
 
@@ -823,7 +823,7 @@ exit;
 ```
 
 **Hasil:**
-![[ad.png]]
+![ad.png](Asetphp/ad.png)
 
 ### **Analisis:**
 1. Pertama, program mengimpor file "koneksi.php" yang berisi pengaturan koneksi ke database. Ini diasumsikan sebagai file terpisah yang berisi kode untuk menghubungkan ke database MySQL.
