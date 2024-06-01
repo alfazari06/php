@@ -736,7 +736,7 @@ if ($umur >= 18) {
 ?>
 ```
 #### Hasil 
-![[h.php2.png]]
+![h.php2.png](Asetphp/h.php2.png)
 #### Analisis
 1. Program tersebut menggunakan struktur kontrol if untuk melakukan pengecekan kondisi tertentu.
 2. Variabel `$umur` diinisialisasi dengan nilai 25.
@@ -810,7 +810,7 @@ if($nilai >= 75){
 ?>
 ```
 #### Hasil 
-![[h.if-else.png]]
+![h.if-else.png](Asetphp/h.if-else.png)
 #### Analisis
 Program PHP di atas adalah contoh sederhana dari penggunaan struktur kontrol if-else untuk mengevaluasi nilai dari variabel `$nilai` dan memberikan respons berdasarkan nilai tersebut. Di sini, variabel `$nilai` diatur ke nilai 80.
 
@@ -893,7 +893,7 @@ if ($nilai >= 90) {
 ?>
 ```
 #### Hasil 
-![[h.if-else-if.png]]
+![h.if-else-if.png](Asetphp/h.if-else.png)
 #### Analisis
 Analisis program ini adalah sebagai berikut:
 
@@ -958,7 +958,7 @@ switch ($hari) {
 
 ```
 #### Hasil 
-![[h.switch.png]]
+![h.switch.png](Asetphp/h.if-else.png)
 #### Analisis
 Program PHP di atas menggunakan struktur `switch-case` untuk mengevaluasi nilai variabel `$hari` dan memberikan respons berdasarkan nilai tersebut. Variabel `$hari` diatur ke nilai "Selasa".
 
@@ -1052,7 +1052,7 @@ echo "4. " . $buah[3] . "\n";
 ?>
 ```
 #### Hasil 
-![[h.array-1dimensi.png]]
+![h.array-1dimensi.png](Asetphp/h.if-else.png)
 #### Analisis
 Program PHP di atas menggunakan array satu dimensi untuk menyimpan daftar nama buah dan kemudian mencetaknya satu per satu.
 
@@ -1110,7 +1110,7 @@ foreach ($buah_harga as $nama_buah => $harga) {
 
 ```
 #### Hasil 
-![[h.array-asosiatif.png]]
+![h.array-asosiatif.png](Asetphp/h.array-asosiatif.png)
 #### Analisis
 1. **Mendefinisikan Array Asosiatif**: Baris pertama mendefinisikan sebuah array asosiatif dengan nama `$buah_harga`. Setiap elemen array memiliki pasangan kunci-nilai, di mana kunci adalah nama buah dan nilai adalah harga buah tersebut.
     
@@ -1156,7 +1156,7 @@ echo $matriks[1][1]; // Output: 5
 echo $matriks[2][2]; // Output: 9
 ```
 #### Hasil 
-![[h.multidimensi.png]]
+![h.multidimensi.png](Asetphp/h.multidimensi.png)
 #### Analisis
 Pada kode di atas, kita memiliki variabel `$matriks` yang merupakan array multidimensi dengan ukuran 3x3. Setiap elemen dalam array utama adalah array lain yang berisi tiga elemen.
 
@@ -1188,7 +1188,7 @@ for ($i = 1; $i <= 5; $i++) {
     echo $i;
 ```
 #### Hasil 
-![[h.for.png]]
+![h.for.png](Asetphp/h.for.png)
 #### Analisis
 1. `for ($i = 1; $i <= 5; $i++) {`: Pernyataan `for` dimulai dengan inisialisasi `$i` yang diatur ke 1. Kemudian, ada kondisi iterasi yang mengevaluasi apakah nilai `$i` kurang dari atau sama dengan 5. Jika kondisi ini terpenuhi, blok pernyataan dalam pernyataan `for` akan dieksekusi. Setelah setiap iterasi, nilai `$i` akan ditambah satu.
     
@@ -1225,7 +1225,7 @@ while ($i <= 5) {
     $i++;
 ```
 #### Hasil 
-![[h.while.png]]
+![h.while.png](Asetphp/h.while.png)
 #### Analisis
 1. `$i = 1;`: Variabel `$i` diinisialisasi dengan nilai 1 di luar pernyataan `while`. Ini menyiapkan variabel yang akan digunakan sebagai penghitung iterasi.
     
@@ -1269,7 +1269,7 @@ do {
 } while ($i <= 5);
 ```
 #### Hasil 
-![[h.do-while.png]]
+![h.do-while.png](Asetphp/h.do-while.png)
 #### Analisis
 1. `$i = 1;`: Variabel `$i` diinisialisasi dengan nilai 1 di luar pernyataan `do-while`. Ini menyiapkan variabel yang akan digunakan sebagai penghitung iterasi.
     
@@ -1305,7 +1305,7 @@ foreach ($nama as $namatrio) {
 }
 ```
 #### Hasil 
-![[h.frch.png]]
+![h.frch.png](Asetphp/h.frch.png)
 #### Analisis
 1. Variabel `$nama` didefinisikan sebagai array yang berisi tiga elemen: "Rehan", "Frhan", dan "Ardi".
     
@@ -1363,7 +1363,7 @@ var_dump($karyawan);
 
 ```
 ### Hasil
-![[h.var_dump.png]]
+![h.var_dump.png](Asetphp/h.var%20dump.png)
 ### Analisis 
 - Array `$person` memiliki tiga elemen: 'nama', 'umur', dan 'email', yang masing-masing memiliki nilai berupa nama, umur, dan email seorang individu.
 - Array `$karyawan` merupakan array multidimensi yang berisi satu array lagi di dalamnya. Setiap elemen array di dalam `$karyawan` mewakili seorang karyawan dan memiliki tiga elemen: 'nama', 'departemen', dan 'gaji'.
@@ -1402,7 +1402,7 @@ echo "Hasil penjumlahan: " . $hasil_penjumlahan;
 ```
 
 ### *Hasil:*
-![[h.function.png]]
+![h.function.png](Asetphp/h.function.png)
 ### *Analisis:*
 - Dalam contoh program di atas, kita mendefinisikan sebuah function bernama tambah yang menerima dua parameter $a dan $b.
 - Di dalam function tambah, kita menambahkan nilai dari parameter $a dan $b dan menyimpan hasilnya di variabel $hasil.
@@ -1522,9 +1522,9 @@ var_dump$_GET
 ```
 
 #### Hasil
-![[h.method.png]]
+![h.method.png](Asetphp/h.method.png)
 
-![[h.get.png]]
+![h.get.png](Asetphp/h.get.png)
 
 #### Analisis
 - **Form**:
@@ -1664,9 +1664,9 @@ var_dump($_POST);
 
 ```
 #### Hasil
-![[h.posh.png]]
+![h.posh.png](Asetphp/h.posh.png)
 
-![[h.posh1.png]]
+![h.posh1.png](Asetphp/h.posh1.png)
 #### Analisis
 - **Form**:
     - Form ini menggunakan metode POST untuk mengirim data ke `proses_posh.php` ketika tombol "Kirim" diklik.
