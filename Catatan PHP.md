@@ -1363,7 +1363,7 @@ var_dump($karyawan);
 
 ```
 ### Hasil
-![h.var dump.png](../Asetphp/h.var%20dump.png)
+![h.var_dump.png](../Asetphp/h.var_dump.png)
 ### Analisis 
 - Array `$person` memiliki tiga elemen: 'nama', 'umur', dan 'email', yang masing-masing memiliki nilai berupa nama, umur, dan email seorang individu.
 - Array `$karyawan` merupakan array multidimensi yang berisi satu array lagi di dalamnya. Setiap elemen array di dalam `$karyawan` mewakili seorang karyawan dan memiliki tiga elemen: 'nama', 'departemen', dan 'gaji'.
