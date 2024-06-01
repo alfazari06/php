@@ -95,7 +95,7 @@ echo 'kelasnya ' . $tk_kelas . ' ' . kelas;
     - Program ini akan menampilkan beberapa baris teks yang mencakup nilai dari variabel dan konstanta yang telah didefinisikan sebelumnya, serta beberapa teks tambahan.
 
 ## Hasil
-![[h.php1.png]]
+![h.php1.png](Asetphp/h.php1.png)
 
 ## Kesimpulan
 Program PHP tersebut menggunakan variabel untuk menyimpan data seperti jumlah meja, kelas, nama-nama individu, dan konstanta untuk menyimpan informasi yang nilainya tetap. Komentar digunakan untuk memberikan penjelasan pada bagian-bagian kode. Program ini kemudian menampilkan output yang menggabungkan nilai variabel dan konstanta dengan teks tambahan menggunakan fungsi `echo`.
